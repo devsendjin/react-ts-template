@@ -1,3 +1,5 @@
+import { Timer } from "components/entities/Timer";
+
 export const App = () => {
-  return <div>App</div>;
+  return <Timer />;
 };
