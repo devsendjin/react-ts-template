@@ -1,31 +1,24 @@
 // https://systemfontstack.com/
 // https://markdotto.com/2018/02/07/github-system-fonts/
 $default-ui-common-fonts:
-  "Apple Color Emoji", // macOS emoji
-  "Segoe UI Emoji", // Windows emoji
-  "Segoe UI Symbol", // Windows emoji
+  "Apple Color Emoji",
+  // macOS emoji
+  "Segoe UI Emoji",
+  // Windows emoji
+  "Segoe UI Symbol",
+  // Windows emoji
   "Noto Color Emoji"; // Linux emoji
 
 $default-ui-monospaced-fonts:
-  "Menlo",
-  "Consolas",
-  "Monaco",
-  "Liberation Mono",
-  "Lucida Console",
-  monospace,
-  $default-ui-common-fonts;
+  "Menlo", "Consolas", "Monaco", "Liberation Mono", "Lucida Console", monospace, $default-ui-common-fonts;
 
 $default-ui-fonts:
-  -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI",
-  "Roboto",
-  "Helvetica Neue",
-  "Arial",
-  sans-serif,
+  -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif,
   $default-ui-common-fonts;
-  
-  // =========================================
+
+$primary-font: "Montserrat", $default-ui-fonts;
+
+// =========================================
 // placeholder with prefix
 // =========================================
 @mixin placeholder {

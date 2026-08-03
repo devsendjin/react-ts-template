@@ -1,14 +1,14 @@
 @use "./assets/styles/reset";
 @use "assets/styles/abstracts" as a;
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap");
 
 @layer base;
 
 @layer base {
   body {
     min-height: 100vh;
-    font-family: a.$default-ui-fonts;
+    font-family: a.$primary-font;
     font-size: 16px;
     line-height: 1.5;
     color: #1a1a1a;
