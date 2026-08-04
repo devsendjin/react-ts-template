@@ -12,6 +12,7 @@
     "tsc:dev:watch": "tsc -p tsconfig.app.json --noEmit --watch"
   },
   "dependencies": {
+    "axios": "1.19.0",
     "classnames": "2.5.1",
     "dayjs": "1.11.21",
     "react": "19.2.8",
