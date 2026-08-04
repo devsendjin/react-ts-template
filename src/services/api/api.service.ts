@@ -1,1 +1,3 @@
-export class ApiService {}
+class ApiService {}
+
+export const apiService = new ApiService();
