@@ -8,8 +8,9 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "format": "prettier --ignore-unknown --write \"src/**/*.{ts,tsx,json,scss,css}\" \"package.json\" \"*.{js,ts,html}\"",
+    "lint": "pnpm lint:tsc",
     "lint:tsc": "tsc --noEmit --noUnusedParameters --noUnusedLocals -p tsconfig.app.json && tsc --noEmit --noUnusedParameters --noUnusedLocals -p tsconfig.node.json",
-    "tsc:dev:watch": "tsc -p tsconfig.app.json --noEmit --watch"
+    "tsc:watch": "tsc -p tsconfig.app.json --noEmit --watch"
   },
   "dependencies": {
     "axios": "1.20.0",
